@@ -1,4 +1,89 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+body, html {
+    background-color: darkblue
+
+}
+.top, .header {
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 50px;
+}
+
+a  {
+    color: black;
+    background-color: white;
+}
+.top img{
+    width: 100px;
+    margin-right: auto;
+    
+}
+a:hover {
+    color: red;
+}
+.description {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;   
+}
+ .description strong {
+    color: white;
+    font-size: 30px;
+}
+.description > *:nth-child(1) {
+    max-width: ;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.description > *:nth-child(2) {
+    margin-left: 50px;
+    border-radius: 5%;
+    padding: 5px;
+    margin-top: 100px;
+    margin-right: auto;
+}
+
+.middle img {
+    max-width: 200px;
+    height: 100px;
+    margin-right: 30px;
+    margin-left: auto;
+}
+.middle {
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding: 10px 0;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+     }
+
+.middle > *:nth-child(1) {
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+    }
+.middle figcaption {
+    max-width: 150px;
+    
+}
+.middle .games {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 0 0 auto;
 }
